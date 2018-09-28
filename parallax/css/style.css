@@ -1,0 +1,58 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+line-height: 1.8rem
+}
+
+.pimg1, .pimg2, .pimg3 {
+    background-position: center;
+    background-position: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pimg2 {
+    background-image: url(../img/img1.jpg);
+    height: 60vh;
+}
+
+.pimg1 {
+    background-image: url(../img/img2.jpg);
+    min-height: 400px;
+}
+
+.pimg3 {
+    background-image: url(../img/img3.jpg);
+    min-height: 400px;
+}
+
+.section {
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.section-light {
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.section-dark {
+    background-color: rgb(36, 43, 48);
+    color: #ddd
+}
+
+.ptext {
+    font-size: 1.8rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-align: center;
+    line-height: 1.6em;
+    background-color: rgba(17, 17, 17, 0.226);
+    padding: 20px;
+}
+
+
